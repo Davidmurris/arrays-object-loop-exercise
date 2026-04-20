@@ -4,7 +4,13 @@ let student = {
     grade: 'A'
 };
 
+
+let count = 0
+
 for(let key in student){
-    console.log(key + ':' + student[key].length)
-    console.log(key.length)
+    if (student.hasOwnProperty(key)){
+        count++
+    }
+    
 }
+console.log(count);
