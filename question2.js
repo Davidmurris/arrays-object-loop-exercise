@@ -1,7 +1,9 @@
-num = 0
+let sum = 0;
+let i = 1;
 
-while (num <=50) {
-   let result = num.reduce((a,b)=> a+b)
-    console.log(result)
-    num++
+while (i <= 50) {
+    sum += i;
+    i++;
 }
+
+console.log(sum); 
