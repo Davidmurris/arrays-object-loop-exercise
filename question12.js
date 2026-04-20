@@ -1,14 +1,14 @@
-function array(numbers){
+function array(num){
     let total = 0
+    
 
-    for(i=0; i<numbers.lenght ;i++){
-        total += numbers[i]
+    for(i=0; i<num.lenght ;i++){
+        total += num[i];
     }
 
-    return total
+    return total;
 
 }
 
-let nums = [2,4,9,7];
-let result = array(nums)
-console.log(result)
+let nums = array([2,4,9,7]) ;
+console.log(nums)
